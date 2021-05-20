@@ -6,7 +6,8 @@ categories: Today I Learned
 permalink: /blog/:title
 ---
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/srkc95/sreekanthc.com/blob/master/_posts/2021-05-20-convert-images-into-a-single-pdf-file/convert-images-into-a-single-pdf-file.ipynb)
+[![Open In Colab](/assets/badges/colab.svg)](https://colab.research.google.com/github/srkc95/sreekanthc.com/blob/master/assets/attachments/2021-05-20-convert-images-into-a-single-pdf-file/convert-images-into-a-single-pdf-file.ipynb)
+[![Open In Github](/assets/badges/github.svg)](https://github.com/srkc95/sreekanthc.com/blob/master/assets/attachments/2021-05-20-convert-images-into-a-single-pdf-file/convert-images-into-a-single-pdf-file.ipynb)
 
 Sometimes we need to convert figures to pdf and combine them into a single pdf file. We can use [Pillow](https://pypi.org/project/Pillow/) and [PyPDF2](https://pypi.org/project/PyPDF2/) for this task.
 
@@ -104,7 +105,7 @@ comb_fpath = os.path.join(root_fold, comb_fname)
 merger.write(comb_fpath)
 ```
 
-Display folder structure. Click [here](https://github.com/srkc95/sreekanthc.com/blob/master/_posts/2021-05-20-convert-images-into-a-single-pdf-file/combined.pdf) for a sample output file. 
+Display folder structure. Click [here](https://github.com/srkc95/sreekanthc.com/blob/master/assets/attachments/2021-05-20-convert-images-into-a-single-pdf-file/combined.pdf) for a sample output file. 
 
 ```
 os.chdir(root_fold)
